@@ -1,0 +1,21 @@
+# For Mac
+.DS_Store
+
+# For Python
+*/__pycache__/*
+*.py[cod]
+*$py.class
+
+# For Django
+db.sqlite3
+**/migrations/*
+
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+
+# For Django-MySQL
+## change 'projectname' to the name of your django project
+projectname/db.cnf
