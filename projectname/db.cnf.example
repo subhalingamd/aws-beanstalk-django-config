@@ -1,0 +1,11 @@
+[client]
+# Update the database credentials below 
+# AND RENAME THIS FILE TO db.cnf (remove the '.example' at the end)
+database = NAME
+user = USERNAME
+password = PASSWORD
+host = HOST
+port = PORT
+
+sql_mode = STRICT_TRANS_TABLES
+default-character-set = utf8
